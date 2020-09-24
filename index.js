@@ -35,20 +35,6 @@ const whatsUp = async () => {
     try {
         const page = await establishConnection()
         await visitPage(page)
-        // await sendMessage(page)
-        // contacts.forEach(async ({ name, message }) => {
-        //     console.log(name, message)
-        //     await sendMessage(page, name, message)
-        // })
-        // Promise.all(
-        //     contacts.map(async ({ name, message }) => {
-        //         await sendMessage(page, name, message)
-        //     })
-        // )
-        // contacts.reduce(
-        //     (p, x) => p.then((_) => sendMessage(page, x.name, x.message)),
-        //     Promise.resolve()
-        // )
         const mapSeries = async (iterable, action) => {
             // eslint-disable-next-line no-restricted-syntax
             for (const { name, message } of iterable) {
