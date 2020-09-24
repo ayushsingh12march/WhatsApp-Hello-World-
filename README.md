@@ -2,7 +2,7 @@
 
 <!-- [START badges] -->
 
-## Primary Library used : [![npm puppeteer package](https://img.shields.io/npm/v/puppeteer.svg)](https://npmjs.org/package/puppeteer)
+## Primary Package used : [![npm puppeteer package](https://img.shields.io/npm/v/puppeteer.svg)](https://npmjs.org/package/puppeteer)
 
 <!-- [END badges] -->
 
